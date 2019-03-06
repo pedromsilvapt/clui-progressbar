@@ -1,6 +1,6 @@
 {
   "name": "clui-progressbar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple terminal progress bar, backed by clui-live",
   "main": "./lib/ProgressBar.js",
   "types": "./lib/ProgressBar.d.ts",
