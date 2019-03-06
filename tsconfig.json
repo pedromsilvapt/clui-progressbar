@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": "lib/",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "lib": [
+            "esnext"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*",
+        "**/*.spec.ts",
+        "lib/**/*"
+    ]
+}

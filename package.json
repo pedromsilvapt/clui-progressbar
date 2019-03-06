@@ -1,0 +1,29 @@
+{
+  "name": "clui-progressbar",
+  "version": "0.1.0",
+  "description": "Simple terminal progress bar, backed by clui-live",
+  "main": "./lib/ProgressBar.js",
+  "types": "./lib/ProgressBar.d.ts",
+  "repository": "pedromsilvapt/clui-progressbar",
+  "keywords": [
+    "cli",
+    "ui",
+    "interface",
+    "gui",
+    "terminal",
+    "console",
+    "progress bar",
+    "percentage"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro M. Silva <pemiolsi@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clui-live": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.3"
+  }
+}
