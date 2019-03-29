@@ -10,7 +10,7 @@ npm install --save clui-progressbar
 
 You can call the `.setState()` method when updating more than just the progress, or simple set the handly `.percentage` property on the object.
 ```typescript
-import { LiveProgressBar } from 'clui-live';
+import { LiveProgressBar } from 'clui-progressbar';
 
 const progressbar = new LiveProgressBar( { title: 'Long running task...' } );
 
